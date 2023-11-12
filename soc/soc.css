@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+head{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2em;}
+p{ font-size: 1.25em;}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+#soc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../media/gam.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#tablas h2{
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
+
+#tablas .texto{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#tablas .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#tablas .cuadro{
+    margin-top: 20px;
+    font-size: 1em;
+    text-align: center;
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+}
+
+.color-soc{
+    color: rgb(115, 175, 200);
+}
+
+#test h2{
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
+
+#test .container{
+    margin-top: 20px;
+    font-size: 1em;
+    text-align: center;
+    padding: 3px 10px;
+}
